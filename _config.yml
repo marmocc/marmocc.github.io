@@ -1,5 +1,4 @@
 title: marmocc's
-description: Software, art and experiments.
 url: "https://marmo.cc"
 baseurl: ""
 
@@ -14,8 +13,3 @@ minima:
 
 github_username: marmocc
 show_excerpts: true
-
-header_pages:
-  - project.md
-  - blog.md
-  - about.md
