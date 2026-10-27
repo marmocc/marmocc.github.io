@@ -1,0 +1,5 @@
+baseURL = "https://marmo.cc/"
+theme = "hugo-coder"
+
+[params]
+    colorScheme = "auto"
