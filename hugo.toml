@@ -1,5 +1,38 @@
 baseURL = "https://marmo.cc/"
+title = "marmocc's"
 theme = "hugo-coder"
+defaultContentLanguage = "en"
 
 [params]
+    author = "Tommaso De Tommaso"
+    avatarURL = "images/avatar.jpg"
+    info = "also known as **marmocc** or **Thom Deth**"
     colorScheme = "auto"
+
+    [[params.social]]
+        name = "GitHub"
+        icon = "fa-brands fa-github fa-2x"
+        url = "https://github.com/marmocc"
+    
+    [[params.social]]
+        name = "LinkedIn"
+        icon = "fa-brands fa-linkedin fa-2x"
+        url = "https://linkedin.com/in/marmocc"
+
+    [[params.social]]
+        name = "YouTube"
+        icon = "fa-brands fa-youtube fa-2x"
+        url = "https://youtube.com/@marmocc"
+
+    [[params.social]]
+        name = "Email"
+        icon = "fa-solid fa-envelope fa-2x"
+        url = "mailto:contact@marmo.cc"
+
+[[menu.main]]
+    name = "BLOG"
+    url = "blog/"
+
+[[menu.main]]
+    name = "STATUS"
+    url = "https://status.marmo.cc"
