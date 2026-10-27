@@ -1,0 +1,21 @@
+title: marmocc's
+description: Software, art and experiments.
+url: "https://marmo.cc"
+baseurl: ""
+
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  skin: auto
+
+github_username: marmocc
+show_excerpts: true
+
+header_pages:
+  - project.md
+  - blog.md
+  - about.md
